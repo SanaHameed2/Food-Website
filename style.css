@@ -13,6 +13,8 @@ body {
     border: 4px solid rgb(19, 19, 18); 
     padding: 15px; 
     border-radius: 14px; 
+    width: 100%;
+    margin-bottom: 20px; 
 }
 
 .card {
@@ -55,6 +57,7 @@ body {
 
 .card:hover .discount-badge {
   top: 4px;
+}
 
 
 .text-muted {
@@ -86,4 +89,9 @@ body {
   color: white !important;
   border-color: rgb(214, 63, 63) !important;
   transform: scale(1.05);
+}
+@media (max-width: 768px) {
+  .card-wrapper {
+      margin-bottom: 30px;
+  }
 }
